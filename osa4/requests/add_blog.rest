@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpMSIsImlkIjoiNjE5ZDQ5OWE3OTY3YjY2MjhmNjAzNTcxIiwiaWF0IjoxNjM3Njk4MDM2LCJleHAiOjE2Mzc3MDE2MzZ9.qz6NAlSmdNdfzeQKel7LRMepm9buQvRUcxkzVdrJbBw
+
+{
+    "title": "Python",
+    "author": "Michael",
+    "url": "https://reactpatterns.com/",
+    "likes": 0,
+    "userId": "619d3f19ae5f9088541267d6"
+    
+}
